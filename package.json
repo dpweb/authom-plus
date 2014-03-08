@@ -1,0 +1,13 @@
+{
+  "name"          : "authom-plus",
+  "description"   : "",
+  "url"           : "http://github.com/dpweb/authom-plus/",
+  "keywords"      : ["util", "nodejs", "express", "web", "html5"],
+  "author"        : "C Borkert <ILIKECHEESE@dpsw.info>",
+  "main": "authom-plus.js",
+  "repository": {
+  	"type": "git",
+ 	"url": "git://github.com/dpweb/authom-plus.git"
+  },
+  "version"       : "0.0.1"
+}
