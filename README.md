@@ -39,6 +39,10 @@ app.use(express.bodyParser());
 
 require("./authom-plus.js")(app);
 
+/*  or use alternate config file
+require("./authom-plus.js")(app, 'config.json');
+*/
+
 app.get('/', function(r, s){
 
 	// failed

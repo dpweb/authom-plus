@@ -1,9 +1,12 @@
 module.exports = function(app, configpath){
 
   if(configpath)
-    configpath = __dirname + configpath;
-  else;
+    configpath = __dirname + '/' + configpath;
+  else
     configpath = __dirname + '/authom.json';
+
+  if(process.env.debug)
+    console.log('authom-plus config', configpath);
 
   var config = require(configpath).authom;
 
