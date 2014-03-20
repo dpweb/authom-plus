@@ -3,7 +3,7 @@ authom-plus
 
 ###Setup
 
-Create authom.json
+Create config.json
 ````
 {
 	"authom": [
